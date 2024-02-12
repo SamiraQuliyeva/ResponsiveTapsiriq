@@ -95,9 +95,9 @@ body section {
   }
 }
 @media screen and (max-width: 501px) {
-  #overflow .box {
+  #overflow .box .minibox {
     display: flex;
-    justify-content: start;
+    align-content: flex-start;
   }
 }
 
