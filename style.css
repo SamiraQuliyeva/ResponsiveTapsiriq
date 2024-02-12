@@ -43,6 +43,28 @@ body section {
   cursor: pointer;
   transition: 1s;
 }
+@media screen and (max-width: 801px) {
+  #button .box .btn {
+    height: 50px;
+    width: 90px;
+    border: 1px solid white;
+    background-color: #515194;
+  }
+  #button .box .btn h1 {
+    margin-top: 5px;
+  }
+}
+@media screen and (max-width: 501px) {
+  #button .box .btn {
+    background-color: #331b1b;
+    width: 53px;
+    height: 53px;
+    border: 1px solid white;
+  }
+  #button .box .btn h1 {
+    font-size: 15px;
+  }
+}
 
 #overflow .box .minibox {
   width: 100px;
@@ -59,6 +81,24 @@ body section {
 #overflow .box .minibox:hover {
   border-radius: 29px;
   transition: 1s;
+}
+@media screen and (max-width: 801px) {
+  #overflow .box .minibox {
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 45px;
+    background-color: #b7bb66;
+  }
+  #overflow .box .minibox h2 {
+    margin: 8px 6px;
+  }
+}
+@media screen and (max-width: 501px) {
+  #overflow .box {
+    display: flex;
+    justify-content: start;
+  }
 }
 
 #text .box .minibox {
