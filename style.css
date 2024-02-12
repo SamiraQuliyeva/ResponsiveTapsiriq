@@ -42,4 +42,59 @@ body section {
   background-color: #32213a;
   cursor: pointer;
   transition: 1s;
+}
+
+#overflow .box .minibox {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(137, 98, 15, 0.7647058824);
+  border: 85px solid #836627;
+  border-radius: 85px;
+}
+#overflow .box .minibox h2 {
+  color: white;
+  font-size: 27px;
+  margin: -12px -18px;
+}
+#overflow .box .minibox:hover {
+  border-radius: 29px;
+  transition: 1s;
+}
+
+#text .box .minibox {
+  margin: 13px 13px;
+  width: 275px;
+  height: 195px;
+  border: 2px solid #405a7d;
+  background-color: #405a7d;
+}
+#text .box .minibox h1 {
+  color: white;
+  font-size: 24px;
+  font-weight: 17px;
+  margin: 73px 102px;
+}
+#text .box .abs {
+  position: absolute;
+  left: 379px;
+  top: 1581px;
+}
+
+#textbox .box .minibox {
+  margin: 13px 13px;
+  width: 275px;
+  height: 195px;
+  border: 2px solid #549d67;
+  background-color: #549d67;
+}
+#textbox .box .minibox h1 {
+  color: white;
+  font-size: 24px;
+  font-weight: 17px;
+  margin: 73px 102px;
+}
+#textbox .box .abs {
+  position: absolute;
+  left: 361px;
+  top: 2101px;
 }/*# sourceMappingURL=style.css.map */
