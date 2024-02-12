@@ -1,10 +1,1 @@
-{
-    "version": 3,
-    "mappings": "ACAA,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,mBAAmB;EAChC,WAAW,EAAE,GAAG;CAAG;;AAEvB,AAAA,CAAC,CAAC;EACE,KAAK,EAAE,MAAM;CAEQ;;AAHzB,AAEI,CAFH,AAEI,MAAM,CAAC;EACJ,KAAK,EAAE,KAAK;CAAG",
-    "sources": [
-        "style.sass",
-        "_main.sass"
-    ],
-    "names": [],
-    "file": "style.css"
-}
+{"version":3,"sources":["_main.sass","style.css","_box.sass","_button.sass"],"names":[],"mappings":"AAAA;EACI,gCAAA;EACA,gBAAA;ACCJ;ADCI;EACI,aAAA;ACCR;;ACLI;EACI,YAAA;EACA,aAAA;EACA,mDAAA;EACA,yBAAA;ADQR;ACPQ;EACI,YAAA;EACA,YAAA;EACA,iBAAA;EACA,eAAA;ADSZ;ACRQ;EACI,mDAAA;EACA,cAAA;EACA,qBAAA;ADUZ;ACTY;EACI,iBAAA;EACA,eAAA;EACA,qBAAA;ADWhB;;AE3BQ;EACI,yBAAA;EACA,YAAA;EACA,YAAA;EACA,yBAAA;AF8BZ;AE7BY;EACI,YAAA;AF+BhB;AE7BY;EACI,yBAAA;EACA,eAAA;EACA,cAAA;AF+BhB","file":"style.css"}
