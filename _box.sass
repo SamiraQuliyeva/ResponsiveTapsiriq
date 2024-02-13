@@ -1,19 +1,24 @@
 #box
-    .minibox
+    .box
+        border: 1px solid #3e77a5
         width: 175px
         height: 175px
-        border: 50px solid #4986aaac
-        background-color: #145674
-        h1
-            color: #ffff
-            margin: 25px
-            font-weight: 55px
-            font-size: 20px
-        &:hover
-            border: 30px solid #4986aaac
-            transition: 2s
-            margin: 0 25px 25px 0
-            h1
-                font-weight: 55px
-                font-size: 20px
-                margin: 0 25px 25px
+        background-color: #486c9e
+        .minibox
+            margin: 45px 38px
+            width: 90px
+            height: 90px
+            background-color: #233d70
+            &:hover
+                .minibox
+                    border: #233d70
+                    width: 120px
+                    height: 120px
+                    background-color: #233d70
+                    transition: 1s
+
+    h1
+        font-size: 15px
+        color: #ffff
+        padding: 39px 30px
+        font-size: 20px

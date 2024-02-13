@@ -6,27 +6,31 @@ body section {
   padding: 45px;
 }
 
-#box .minibox {
+#box .box {
+  border: 1px solid #3e77a5;
   width: 175px;
   height: 175px;
-  border: 50px solid rgba(73, 134, 170, 0.6745098039);
-  background-color: #145674;
+  background-color: #486c9e;
 }
-#box .minibox h1 {
+#box .box .minibox {
+  transition: 1s;
+  margin: 45px 38px;
+  width: 90px;
+  height: 90px;
+  background-color: #233d70;
+}
+#box h1 {
+  font-size: 15px;
   color: white;
-  margin: 25px;
-  font-weight: 55px;
+  padding: 39px 30px;
   font-size: 20px;
 }
-#box .minibox:hover {
-  border: 30px solid rgba(73, 134, 170, 0.6745098039);
+#box:hover .minibox {
+  width: 120px;
+  height: 120px;
+  border: 2px solid black;
+  background-color: #993838;
   transition: 2s;
-  margin: 0 25px 25px 0;
-}
-#box .minibox:hover h1 {
-  font-weight: 55px;
-  font-size: 20px;
-  margin: 0 25px 25px;
 }
 
 #button .box .btn {
